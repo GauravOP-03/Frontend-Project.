@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container{
+    /* height: auto;
+    width: 500px; */
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h3{
+    font-weight: 600;
+    margin: 8px;
+}
+h4{
+    align-items: start;
+    justify-content: start;
+    /* margin: 8px; */
+}
+
+.btn{
+    border: 5px solid black;
+    border-radius: 1.5rem;
+    height: 200px;
+    width: 200px;
+}
+
+.yellow{
+    background-color: rgb(233, 244, 74);
+}
+
+.red{
+    background-color: rgb(248, 80, 80);
+}
+
+.purple{
+    background-color: rgb(165, 46, 165);
+}
+
+.green{
+    background-color: rgb(86, 237, 86);
+}
+
+.blink{
+    background-color: white;
+}
+
+.selBlink{
+    background-color: green;
+}
